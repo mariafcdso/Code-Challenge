@@ -1,0 +1,36 @@
+import javax.swing.JOptionPane;
+
+public class CodeONE {
+
+	public static void main(String[] args) {
+				char continua = 'S';
+				Peças<Estoque> listadepecas = new Peças<>();
+				int codigo;
+		        String nome;
+		        String VeiculodeAplic;
+		        int PesoLiquido;
+		        int PesoBruto;
+		        while (continua == 'S') {
+		            nome = JOptionPane.showInputDialog("Informe o nome do Produto");
+		            VeiculodeAplic = JOptionPane.showInputDialog("Informe o Veículo de Aplicação do Produto");
+		            listadepecas.add(new Estoque(nome, VeiculodeAplic, PesoLiquido, PesoBruto);
+		        }
+		        for (Estoque elemento : listadepecas) {
+		            System.out.println(elemento + "\n");
+		            System.out.println();
+		        }
+		      Produto = new Produto();
+		    	int opcao = Integer.parseInt(JOptionPane.showInputDialog("\n Digite 1 para cadastrar uma nova peça \n Digite 2 para listar as peças cadastrados);"
+		    	switch (opcao) {
+		    		      case 1:
+		    		    	  String Nome = JOptionPane.showInputDialog("Digite o Nome da Peça: ");
+		    		    	  String VeiculoDeAplicacao = JOptionPane.showInputDialog("Digite o Veículo de Aplicação: ");
+		    		    	  int PesoLiquido = JOptionPane.showInputDialog("Digite o Peso Líquido da Peça: ");
+		    		    	  int PesoBruto = JOptionPane.showInputDialog("Digite o Peso Bruto da Peça: ");
+		    		    	  Produto.digitarNome(Nome);
+		    		    	  Produto.digitarVeiculoDeAplicacao(VeiculodeAplicacao);
+		    		    	  Produto.digitarPesoLiquido(PesoLiquido);
+		    		    	  Produto.digitarPesoBruto(PesoBruto);
+		    		    	 
+		    }
+		}
